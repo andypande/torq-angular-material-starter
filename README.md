@@ -24,7 +24,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 2. Ensure the component you are importing is added into the app.module.ts file
 3. Navigate to the app.component.html file to add the Material Component into your HTML code
 4. **Make sure you follow the Angular Material guidelines for how to theme your imported components**
-... For example, you will see that in the current application code there is a color property applied to every component. Ex: <mat-toolbar color="surface">. Similarly, you must use the [Torq Developer Guidelines](http://guidelines.torq.design) to ensure you are putting the right color on each of the components. For reference, the Torq project colors are as follows:
+... For example, you will see that in the current application code there is a color property applied to every component. Ex: `<mat-toolbar color="surface">`. Similarly, you must use the [Torq Developer Guidelines](http://guidelines.torq.design) to ensure you are putting the right color on each of the components. For reference, the Torq project colors are as follows:
     
     | Theme Style   | Color      | Hex Value  |
     | ------------- |----------  | ----------|
@@ -46,8 +46,3 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Further help
 
 Reach out to the Torq team on the #torq slack channel or navigate to [Torq Guidelines](http://guidelines.torq.design)
-
-
-
-Need some guidelines for Dark Theme Versus Light Theme
-Seperate out the SCSS file into custom CSS for each of the different Material Components 
