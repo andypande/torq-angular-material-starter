@@ -37,7 +37,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
     | Dark UI       | Background | linear-gradient(#1A2633, #101820) |
     | Dark UI       | Surface    | #1D2E40 |
 
-**Please do not overwrite color properties for individual components in your SCSS, SASS, CSS files. Instead, try to apply the Angular Material Theming properties to the individual components. Please do not overwrite the styles in the torq-theme.scss file either.**      s 
+**Please do not overwrite color properties for individual components in your SCSS, SASS, CSS files. Instead, try to apply the Angular Material Theming properties to the individual components. Please do not overwrite the styles in the torq-theme.scss file either.**
 
 ## Build
 
