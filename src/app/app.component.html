@@ -1,0 +1,27 @@
+
+<span [ngClass]="{ 'torq-dark-theme' : !lightTheme}">
+
+<mat-toolbar color="surface" class="mat-elevation-z3">
+    <button mat-icon-button (click)="sidenav.toggle()" disableRipple="true">
+            <mat-icon>view_headline</mat-icon>
+    </button>
+    <span color="primary">Application Name</span>  
+</mat-toolbar>
+
+
+<mat-drawer-container autosize="true" hasBackdrop="false" class="layout-container" color="primary" [ngClass]="{ 'background-light' : lightTheme, 'background-dark': !lightTheme }">
+        <mat-drawer #sidenav mode="side" opened> 
+                <mat-nav-list disableRipple="true" *ngFor="let n of navList" (click)="select(n)" [ngClass]="{active: isActive(n)}">
+                        <a mat-list-item> {{n}} </a>
+                </mat-nav-list>
+        </mat-drawer>
+        <mat-drawer-content>
+
+                <br><span class="page-title">Page Title</span>
+                <mat-card class="example-card mat-elevation-z0">
+                        <mat-card-title>Example Card</mat-card-title>
+                </mat-card>
+        </mat-drawer-content>
+</mat-drawer-container>
+
+</span>
